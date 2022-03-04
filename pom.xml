@@ -3,11 +3,11 @@
 
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <sureFireOptions11 />
+      <sureFireOptions11/>
       <sureFireForks11>false</sureFireForks11>
       <java11.sourceDirectory>${project.basedir}/src/main/java11</java11.sourceDirectory>
       <java11.build.outputDirectory>${project.build.directory}/classes-java11</java11.build.outputDirectory>
-      <artifact.classifier />
+      <artifact.classifier/>
 
       <docker.maven.plugin.fabric8.version>0.36.0</docker.maven.plugin.fabric8.version>
       <felix.bundle.plugin.version>5.1.1</felix.bundle.plugin.version>
@@ -18,7 +18,7 @@
       <maven.release.version>2.5.3</maven.release.version>
       <metrics.version>3.2.5</metrics.version>
       <micrometer.version>1.5.10</micrometer.version>
-      <simpleclient.version>0.9.0</simpleclient.version>
+      <simpleclient.version>0.15.0</simpleclient.version>
       <mockito.version>3.7.7</mockito.version>
       <pax.exam.version>4.13.1</pax.exam.version>
       <pax.url.version>2.5.4</pax.url.version>
