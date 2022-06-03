@@ -12,19 +12,19 @@
       <docker.maven.plugin.fabric8.version>0.36.0</docker.maven.plugin.fabric8.version>
       <felix.bundle.plugin.version>5.1.1</felix.bundle.plugin.version>
       <felix.version>6.0.1</felix.version>
-      <hibernate.version>5.4.24.Final</hibernate.version>
+      <hibernate.version>6.0.1.Final</hibernate.version>
       <javassist.version>3.27.0-GA</javassist.version>
       <jndi.version>0.11.4.1</jndi.version>
       <maven.release.version>2.5.3</maven.release.version>
-      <metrics.version>3.2.5</metrics.version>
       <micrometer.version>1.9.0</micrometer.version>
+      <metrics.version>4.2.9</metrics.version>
       <simpleclient.version>0.9.0</simpleclient.version>
       <mockito.version>3.7.7</mockito.version>
       <pax.exam.version>4.13.1</pax.exam.version>
       <pax.url.version>2.5.4</pax.url.version>
       <postgresql.version>42.3.3</postgresql.version>
       <log4j.version>2.17.2</log4j.version>
-      <slf4j.version>1.7.30</slf4j.version>
+      <slf4j.version>1.7.36</slf4j.version>
       <commons.csv.version>1.5</commons.csv.version>
       <h2.version>2.1.212</h2.version>
       <junit.version>4.13.1</junit.version>
@@ -567,7 +567,7 @@
                -add-exports java.base/sun.net.www.protocol.http=ALL-UNNAMED
                -add-exports java.base/sun.net.www.protocol.https=ALL-UNNAMED
             </sureFireOptions11 -->
-            <slf4j.version>2.0.0-alpha1</slf4j.version>
+            <slf4j.version>1.7.36</slf4j.version>
             <sureFireForks11>true</sureFireForks11>
          </properties>
          <dependencies>
